@@ -124,7 +124,7 @@ function System() {
     let id = this.users.map(user => user.id) 
     console.log(id)
   }
-  
+
   this.getUser = function(id) {
     console.log(id)
   }
@@ -146,3 +146,4 @@ system.removeUser(alex)
 console.log(system)
 
 system.getOnLineUsers()
+
